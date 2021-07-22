@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#E12B2B"
+
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_margin="1pt"
+       android:background="#FFFFFF"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <ImageView
+           android:id="@+id/imageView10"
+           android:layout_width="20pt"
+           android:layout_height="20pt"
+           android:layout_gravity="center"
+           android:layout_marginTop="3pt"
+           android:layout_marginBottom="2pt"
+           app:srcCompat="@drawable/warning" />
+
+       <TextView
+           android:id="@+id/textView10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:text="Êtes-vous sûr de vous déconnecter de l'application"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:textSize="22sp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#D8D63333"
+           app:layout_constraintHorizontal_bias="0.498"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="9pt"
+           android:layout_marginRight="14pt"
+           android:layout_gravity="right"
+           android:layout_marginBottom="5pt"
+           android:layout_weight="0"
+           android:gravity="center">
+
+           <Button
+               android:id="@+id/bu_No"
+               android:layout_width="wrap_content"
+               android:layout_height="15pt"
+               android:layout_marginRight="7pt"
+               android:layout_weight="0"
+               android:background="@drawable/rv_background"
+               android:backgroundTint="#F13131"
+               android:text="Non" />
+
+           <Button
+               android:id="@+id/bu_yes"
+               android:layout_width="wrap_content"
+               android:layout_height="15pt"
+               android:layout_marginLeft="7pt"
+               android:layout_weight="0"
+               android:background="@drawable/rv_background"
+               android:backgroundTint="#35E15B"
+               android:text="Oui" />
+
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

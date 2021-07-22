@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrateur"
+    android:orientation="vertical">
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/toolbar2"
+       android:layout_width="match_parent"
+       android:layout_height="?actionBarSize"
+       app:contentInsetStart="0dp"
+       app:contentInsetStartWithNavigation="0dp"
+       app:layout_collapseMode="pin" />
+
+   <ImageView
+
+       android:layout_marginTop="20pt"
+       android:layout_width="50pt"
+       android:layout_height="50pt"
+       android:layout_gravity="center"
+       app:srcCompat="@drawable/icon_admin" />
+
+   <com.royrodriguez.transitionbutton.TransitionButton
+       android:id="@+id/bu_client"
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:text="Client"
+       android:layout_marginLeft="3pt"
+       android:layout_marginRight="3pt"
+       android:layout_marginTop="8pt"
+       app:defaultColor="@color/primary_blue"
+       app:loaderColor="@color/primary_jaune"
+       android:textColor="@android:color/white" />
+
+   <com.royrodriguez.transitionbutton.TransitionButton
+       android:id="@+id/bu_chauffer"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Chauffeur"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginTop="8pt"
+       android:layout_marginLeft="3pt"
+       android:layout_marginRight="3pt"
+       app:defaultColor="@color/colorAccent"
+       app:loaderColor="@color/primary_jaune"
+       android:textColor="@android:color/white" />
+
+   <com.royrodriguez.transitionbutton.TransitionButton
+       android:id="@+id/bu_Dispatcheur"
+       android:layout_width="match_parent"
+       android:layout_marginTop="8pt"
+       android:layout_marginLeft="3pt"
+       android:layout_marginRight="3pt"
+       android:layout_height="wrap_content"
+       android:text="Dispatcheur"
+       app:defaultColor="#EA7A30"
+       android:gravity="center"
+       android:layout_gravity="center"
+       app:loaderColor="@color/black"
+       android:textColor="@android:color/white" />
+
+</LinearLayout>

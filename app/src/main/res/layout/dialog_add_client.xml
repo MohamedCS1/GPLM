@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_ground_client"
+    android:orientation="vertical">
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     <LinearLayout
+         android:id="@+id/layout_client_id"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_gravity="center"
+         android:layout_marginLeft="5pt"
+         android:layout_marginTop="6pt"
+         android:layout_marginRight="5pt"
+         android:gravity="center"
+         android:orientation="horizontal">
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="13pt"
+             android:layout_height="15pt"
+             android:layout_gravity="center"
+             android:layout_marginRight="2pt"
+             app:srcCompat="@drawable/ic_client" />
+
+
+         <EditText
+             android:id="@+id/D_ID_Client"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="2pt"
+             android:layout_weight="1"
+             android:ems="10"
+             android:gravity="center"
+             android:hint="ID"
+             android:textColor="#359765"
+             android:textSize="20sp"
+             android:inputType="textPersonName"
+             android:maxLength="8"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/bu_auto_id_client"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:backgroundTint="#1092F6"
+             android:text="auto ID"
+             android:textSize="12sp">
+
+         </Button>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/layout_adresse"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="5pt"
+         android:layout_marginTop="6pt"
+         android:layout_below="@+id/layout_client_id"
+         android:layout_marginRight="5pt"
+         android:orientation="horizontal">
+
+
+         <ImageView
+             android:id="@+id/imageView5"
+             android:layout_width="15pt"
+             android:layout_height="15pt"
+             android:layout_gravity="center"
+             android:layout_marginRight="2pt"
+             android:layout_weight="0"
+             app:srcCompat="@drawable/icon_map" />
+
+
+
+
+         <EditText
+             android:id="@+id/D_Adresse_Client"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:inputType="textPersonName"
+             android:hint="Adresse"
+             android:textStyle="bold"
+             android:gravity="center"/>
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/layout_R_S"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginBottom="3pt"
+         android:layout_marginLeft="5pt"
+         android:layout_marginTop="6pt"
+         android:layout_marginRight="5pt"
+         android:layout_weight="0"
+         android:layout_below="@id/layout_adresse"
+         android:gravity="center"
+         android:orientation="horizontal">
+
+
+
+         <EditText
+             android:id="@+id/D_R_S_Client"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_weight="1"
+             android:inputType="textPersonName"
+             android:gravity="center"
+             android:hint="Raison_Sociale"
+             android:textColor="#FFC107"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_add_pass"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/layout_R_S"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:hint="Raison_Sociale"
+         android:paddingLeft="2pt"
+         android:textColor="#FFC107"
+         android:layout_marginLeft="5pt"
+         android:layout_marginTop="6pt"
+         android:layout_marginRight="5pt"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:orientation="vertical">
+
+         <EditText
+             android:id="@+id/D_add_pass_client"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="mot de passe"
+             android:inputType="textPassword"
+             android:layout_gravity="center"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:paddingLeft="2pt"
+             android:textColor="#FFC107"
+             android:textSize="20sp"
+             android:textStyle="bold">
+
+         </EditText>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/layout_add_pass"
+         android:gravity="center"
+         android:layout_marginTop="4pt"
+         android:layout_marginBottom="6pt"
+         android:orientation="vertical">
+
+         <Button
+             android:id="@+id/D_bu_Add_Client"
+             android:layout_width="wrap_content"
+             android:text="Add"
+             android:layout_height="20pt"
+             android:background="@drawable/chpass_bg"
+             android:backgroundTint="@color/color_action_bar_client"
+             android:gravity="center"
+             />
+     </LinearLayout>
+ </RelativeLayout>
+
+
+
+</ScrollView>

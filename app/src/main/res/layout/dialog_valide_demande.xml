@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12pt"
+        android:background="@drawable/rv_background"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="15pt"
+                    android:layout_height="15pt"
+                    android:layout_marginRight="2pt"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/icon_map" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5pt"
+                    android:gravity="center"
+                    android:text="adresse:"
+                    android:textColor="#EB000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adresse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3pt"
+                android:layout_marginBottom="3pt"
+                android:gravity="center"
+                android:text="AV COLONEL AMIROUCHE BEK"
+                android:textColor="#EBDD5331"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="13pt"
+                android:layout_height="13pt"
+                android:layout_gravity="center"
+                android:layout_marginRight="2pt"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/ic_brail" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5pt"
+                android:gravity="center"
+                android:text="Quantité GPL:"
+                android:textColor="#3D7FB8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quantity_gpl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="25 T"
+                android:textColor="#359765"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Date de la demande:"
+                android:textColor="#65A8D3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="2pt"
+                android:text="27-06-2021 15:38:21"
+                android:textColor="#706136"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="affecter à :"
+                android:textColor="#65A8D3"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/date_livrasion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="2pt"
+                android:text="27-06-2021 15:38:21"
+                android:textColor="#706136"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Prix unitaire :"
+                android:textColor="#8B000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="2pt"
+                android:text="9.4 Da"
+                android:textColor="#FFC107"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="10pt"
+                android:layout_height="10pt"
+                android:layout_marginRight="2pt"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/icon_price" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Total à payer :"
+                android:textColor="#8B000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prix_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6pt"
+                android:layout_weight="0"
+                android:paddingLeft="2pt"
+                android:text="9400 Da"
+                android:textColor="#FFC107"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3pt"
+            android:layout_marginBottom="7pt"
+            android:layout_weight="0"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu_sortir"
+                android:layout_width="wrap_content"
+                android:layout_height="15pt"
+                android:layout_marginRight="7pt"
+                android:layout_weight="0"
+                android:background="@drawable/rv_background"
+                android:backgroundTint="#F13131"
+                android:text="Sortir" />
+
+            <Button
+                android:id="@+id/bu_envoyer"
+                android:layout_width="wrap_content"
+                android:layout_height="15pt"
+                android:layout_marginLeft="7pt"
+                android:layout_weight="0"
+                android:background="@drawable/rv_background"
+                android:backgroundTint="#35E15B"
+                android:text="Envoyer" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="2pt"
+        app:srcCompat="@drawable/icon_d_valide" />
+
+
+</RelativeLayout>

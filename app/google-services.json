@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022884289032",
+    "project_id": "naftal-61827",
+    "storage_bucket": "naftal-61827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022884289032:android:af9d2462a4ae2e7c2bcfbd",
+        "android_client_info": {
+          "package_name": "com.example.naftal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022884289032-m9n47hdoghb3avkb6k3fkmsv0pleap6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naftal",
+            "certificate_hash": "71e4551bf936385f0663cfb779559128cda1b52c"
+          }
+        },
+        {
+          "client_id": "1022884289032-fs3m6a2mqm7rboqcv6joqd870kqclav1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT4XVA3MLnvlUvR4yMiHNpGUa9P8Pew1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022884289032-fs3m6a2mqm7rboqcv6joqd870kqclav1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

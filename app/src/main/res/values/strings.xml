@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">naftal</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="changer_le_mot_de_passe">Changer le mot de passe</string>
+    <string name="historique">Historique</string>
+
+</resources>

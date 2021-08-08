@@ -1,4 +1,4 @@
-# GPLM ⛽⚙
+# GPLM ⛽⚙ + Firebase ✔
 
 GPL management is an application to manage the gas delivery process
 ***************************************************************************
